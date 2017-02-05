@@ -214,8 +214,12 @@ if (!__DEV__) {
   )
 }
 webpackConfig.externals = {
-          "react": "React",
+        "flexicious-react-datagrid":"flexiciousNmsp",
+        "react": "React",
         "react-dom": "ReactDOM",
-        "flexicious-react-datagrid":"flexiciousNmsp"
+    'react-addons-transition-group': 'var React.addons.TransitionGroup',
+    'react-addons-pure-render-mixin': 'var React.addons.PureRenderMixin',
+    'react-addons-create-fragment': 'var React.addons.createFragment',
+    'react-addons-update': 'var React.addons.update'
 }
 module.exports = webpackConfig
