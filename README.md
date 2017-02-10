@@ -1,3 +1,6 @@
+A sample application based on https://github.com/davezuko/react-redux-starter-kit - (many thanks) that uses the flexicious react datagrid component. 
+
+
 # react-redux-datagrid
 A datagrid component built for React - integration with the react-redux-starter kit project. 
 
